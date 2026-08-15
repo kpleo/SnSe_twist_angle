@@ -669,7 +669,7 @@ def main() -> int:
         },
         "scope": [
             "The velocity quantity is a matched-control-normalized harmonic band-path descriptor.",
-            "The fitted half-saturation angle is a structural fit parameter, not a magic angle.",
+            "The fitted half-saturation angle is a structural fit parameter, not a singular-angle condition.",
             "A full thermal-conductivity claim requires Brillouin-zone integration and anharmonic lifetimes.",
         ],
     }

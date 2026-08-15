@@ -19,7 +19,7 @@ restrictions.
 - fixed-cell MACE relaxation and matched untwisted-control construction;
 - centered finite-displacement harmonic phonons;
 - analytical Phonopy dynamical-matrix-derivative group velocities;
-- 4 x 4 x 1 full-zone stability, ASR, and path-density checks;
+- 4 x 4 x 1 q-grid stability, ASR, and path-density checks;
 - DFT registry and MACE-vs-DFT interatomic-force-constant validation scripts;
 - the restrained 7.61-degree relaxation-sensitivity diagnostics;
 - scripts that regenerate the reported plots from recomputed result tables;
@@ -63,15 +63,16 @@ in [docs/input_provenance.md](docs/input_provenance.md).
   3.583322, and 3.184739 degrees;
 - commensurate family:
   `M_lower=[[p,0],[0,q]]`, `M_upper=[[p,1],[-1,q]]`;
-- periodic empty gap: 25 A;
+- periodic vacuum gap: 25 A;
 - centered displacements: +/-0.010 A, no symmetry reduction, 1 x 1 x 1;
 - analytical path: nine midpoint samples per segment on Gamma-X-S-Y-Gamma;
 - primary thermal metric: 300 K with a 0.05 THz positive-frequency cutoff;
-- full-zone check: uniform 4 x 4 x 1 q grid for every twisted structure;
+- stability check: uniform 4 x 4 x 1 q grid for every twisted structure;
 - displayed band path: 18 points per segment.
 
-The 7.61-degree configuration is treated only as a relaxation-sensitive special
-case. It is not used to claim an intrinsic instability or a magic angle.
+The 7.61-degree configuration is treated only as a relaxation-sensitive
+reference. It is not used to claim an intrinsic instability or a singular-angle
+condition.
 
 ## External software and licensed inputs
 
@@ -91,3 +92,9 @@ python tools/audit_release.py
 The audit rejects raw calculation outputs, manuscript files, generated figures,
 model checkpoints, large binary arrays, personal absolute paths, and files over
 the release size limit.
+
+## License
+
+This repository is released under the MIT License; see [LICENSE](LICENSE).
+Third-party software and data (VASP, POTCAR files, and MACE model checkpoints)
+remain subject to their own licenses and are not distributed here.

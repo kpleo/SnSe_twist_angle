@@ -17,7 +17,7 @@
   },
   "cases": [
     {"label": "8p77deg", "angle_deg": 8.771750236347492, "p": 7, "q": 6, "atom_count": 340},
-    {"label": "7p61deg", "angle_deg": 7.611378517094657, "p": 8, "q": 7, "atom_count": 452, "role": "relaxation-sensitive special case"},
+    {"label": "7p61deg", "angle_deg": 7.611378517094657, "p": 8, "q": 7, "atom_count": 452, "role": "relaxation-sensitive reference"},
     {"label": "6p02deg", "angle_deg": 6.017284864032033, "p": 10, "q": 9, "atom_count": 724},
     {"label": "4p78deg", "angle_deg": 4.780191847199163, "p": 13, "q": 11, "atom_count": 1148},
     {"label": "3p82deg", "angle_deg": 3.822553729274344, "p": 16, "q": 14, "atom_count": 1796},
