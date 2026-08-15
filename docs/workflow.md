@@ -13,8 +13,8 @@ python scripts/structures/audit_corrected_2d_twist_series.py --root work
 ```
 
 The generator applies equal and opposite logarithmic area accommodation,
-area-preserving aspect matching, centered Sn anchors, and a 25 A periodic empty
-gap. The seven `(p,q)` pairs are defined in `configs/angle_series.json`.
+area-preserving aspect matching, centered Sn anchors, and a 25 A periodic
+vacuum gap. The seven `(p,q)` pairs are defined in `configs/angle_series.json`.
 
 ## 2. Fixed-cell relaxation
 
