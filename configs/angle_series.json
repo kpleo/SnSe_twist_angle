@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "commensurate_family": {
+    "lower_matrix": "[[p,0],[0,q]]",
+    "upper_matrix": "[[p,1],[-1,q]]",
+    "s": 1,
+    "t": 1,
+    "twist_atom_count": "4*(2*p*q+1)"
+  },
+  "construction": {
+    "area_matching": "equal-and-opposite logarithmic area accommodation",
+    "aspect_matching": "area-preserving rectangular closure",
+    "anchor": "primitive-index-0 Sn atoms at fractional (0.5,0.5)",
+    "periodic_vacuum_gap_angstrom": 25.0,
+    "initial_layer_center_separation_angstrom": 5.9127456535574385,
+    "matched_control_registry_fraction": [0.3333333333333333, 0.0]
+  },
+  "cases": [
+    {"label": "8p77deg", "angle_deg": 8.771750236347492, "p": 7, "q": 6, "atom_count": 340},
+    {"label": "7p61deg", "angle_deg": 7.611378517094657, "p": 8, "q": 7, "atom_count": 452, "role": "relaxation-sensitive special case"},
+    {"label": "6p02deg", "angle_deg": 6.017284864032033, "p": 10, "q": 9, "atom_count": 724},
+    {"label": "4p78deg", "angle_deg": 4.780191847199163, "p": 13, "q": 11, "atom_count": 1148},
+    {"label": "3p82deg", "angle_deg": 3.822553729274344, "p": 16, "q": 14, "atom_count": 1796},
+    {"label": "3p58deg", "angle_deg": 3.583321698471974, "p": 17, "q": 15, "atom_count": 2044},
+    {"label": "3p18deg", "angle_deg": 3.1847385367204093, "p": 19, "q": 17, "atom_count": 2588}
+  ]
+}
